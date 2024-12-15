@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Регистрация"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Введите логин"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зарегистрироваться"
+        android:background="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Уже зарегистрированы? Войти"
+        android:textColor="#04ADE0" />
+
+    <TextView
+        android:id="@+id/textViewRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Примечание: Пароль должен содержать не менее 4 символов и не включать пробелы."
+        android:textColor="#BCBABA"
+        android:gravity="center" />
+</LinearLayout>
